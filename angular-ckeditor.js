@@ -1,9 +1,4 @@
-(function (root, factory) {
-  // AMD
-  if (typeof define === 'function' && define.amd) define(['angular'], factory);
-  // Global
-  else factory(angular);
-}(this, function (angular) {
+define(function () {
 
   angular
   .module('ckeditor', [])
@@ -150,4 +145,4 @@
       });
     });
   }
-}));
+});
