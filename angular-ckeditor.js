@@ -1,6 +1,6 @@
 define(function () {
 
-  angularAMD
+  angular
   .module('ckeditor', [])
   .directive('ckeditor', ['$parse', ckeditorDirective]);
 
