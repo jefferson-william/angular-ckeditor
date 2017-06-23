@@ -1,6 +1,4 @@
-define(function () {
-
-  angular
+angular
   .module('ckeditor', [])
   .directive('ckeditor', ['$parse', ckeditorDirective]);
 
@@ -145,4 +143,3 @@ define(function () {
       });
     });
   }
-});
