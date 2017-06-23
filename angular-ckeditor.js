@@ -1,5 +1,6 @@
-angular
-  .module('ckeditor', [])
+define(['angularAMD'], function (angularAMD) {
+
+  angularAMD
   .directive('ckeditor', ['$parse', ckeditorDirective]);
 
   // Polyfill setImmediate function.
@@ -143,3 +144,4 @@ angular
       });
     });
   }
+});
